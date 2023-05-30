@@ -6,4 +6,40 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="images\about-img.jpg" />
+    <None Remove="images\client.jpg" />
+    <None Remove="images\d1.jpg" />
+    <None Remove="images\d2.jpg" />
+    <None Remove="images\d3.jpg" />
+    <None Remove="images\favicon.png" />
+    <None Remove="images\hero-bg.png" />
+    <None Remove="images\s1.png" />
+    <None Remove="images\s2.png" />
+    <None Remove="images\s3.png" />
+    <None Remove="images\s4.png" />
+    <None Remove="images\t1.jpg" />
+    <None Remove="images\t2.jpg" />
+    <None Remove="images\t3.jpg" />
+    <None Remove="images\t4.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\about-img.jpg" />
+    <Resource Include="images\client.jpg" />
+    <Resource Include="images\d1.jpg" />
+    <Resource Include="images\d2.jpg" />
+    <Resource Include="images\d3.jpg" />
+    <Resource Include="images\favicon.png" />
+    <Resource Include="images\hero-bg.png" />
+    <Resource Include="images\s1.png" />
+    <Resource Include="images\s2.png" />
+    <Resource Include="images\s3.png" />
+    <Resource Include="images\s4.png" />
+    <Resource Include="images\t1.jpg" />
+    <Resource Include="images\t2.jpg" />
+    <Resource Include="images\t3.jpg" />
+    <Resource Include="images\t4.jpg" />
+  </ItemGroup>
+
 </Project>
