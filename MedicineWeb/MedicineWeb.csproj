@@ -7,39 +7,83 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="images\about-img.jpg" />
-    <None Remove="images\client.jpg" />
-    <None Remove="images\d1.jpg" />
-    <None Remove="images\d2.jpg" />
-    <None Remove="images\d3.jpg" />
-    <None Remove="images\favicon.png" />
-    <None Remove="images\hero-bg.png" />
-    <None Remove="images\s1.png" />
-    <None Remove="images\s2.png" />
-    <None Remove="images\s3.png" />
-    <None Remove="images\s4.png" />
-    <None Remove="images\t1.jpg" />
-    <None Remove="images\t2.jpg" />
-    <None Remove="images\t3.jpg" />
-    <None Remove="images\t4.jpg" />
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0\MedicineWeb.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\MedicineWeb.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net6.0\MedicineWeb.RazorAssemblyInfo.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="images\about-img.jpg" />
-    <Resource Include="images\client.jpg" />
-    <Resource Include="images\d1.jpg" />
-    <Resource Include="images\d2.jpg" />
-    <Resource Include="images\d3.jpg" />
-    <Resource Include="images\favicon.png" />
-    <Resource Include="images\hero-bg.png" />
-    <Resource Include="images\s1.png" />
-    <Resource Include="images\s2.png" />
-    <Resource Include="images\s3.png" />
-    <Resource Include="images\s4.png" />
-    <Resource Include="images\t1.jpg" />
-    <Resource Include="images\t2.jpg" />
-    <Resource Include="images\t3.jpg" />
-    <Resource Include="images\t4.jpg" />
+    <Content Include="bin\Debug\net6.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net6.0\appsettings.json" />
+    <Content Include="bin\Debug\net6.0\MedicineWeb.deps.json" />
+    <Content Include="bin\Debug\net6.0\MedicineWeb.runtimeconfig.json" />
+    <Content Include="bin\Debug\net6.0\MedicineWeb.staticwebassets.runtime.json" />
+    <Content Include="obj\Debug\net6.0\MedicineWeb.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net6.0\project.razor.vs.json" />
+    <Content Include="obj\Debug\net6.0\scopedcss\bundle\MedicineWeb.styles.css" />
+    <Content Include="obj\Debug\net6.0\scopedcss\projectbundle\MedicineWeb.bundle.scp.css" />
+    <Content Include="obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css" />
+    <Content Include="obj\Debug\net6.0\staticwebassets.build.json" />
+    <Content Include="obj\Debug\net6.0\staticwebassets.development.json" />
+    <Content Include="obj\Debug\net6.0\staticwebassets.pack.json" />
+    <Content Include="obj\MedicineWeb.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0\HospitalCore.dll" />
+    <None Include="bin\Debug\net6.0\HospitalCore.pdb" />
+    <None Include="bin\Debug\net6.0\MedicineWeb.dll" />
+    <None Include="bin\Debug\net6.0\MedicineWeb.exe" />
+    <None Include="bin\Debug\net6.0\MedicineWeb.pdb" />
+    <None Include="bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win-x64\native\sni.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win-x86\native\sni.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net6.0\System.Data.SqlClient.dll" />
+    <None Include="obj\Debug\net6.0\apphost.exe" />
+    <None Include="obj\Debug\net6.0\MedicineWeb.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\MedicineWeb.assets.cache" />
+    <None Include="obj\Debug\net6.0\MedicineWeb.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\MedicineWeb.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net6.0\MedicineWeb.csproj.CopyComplete" />
+    <None Include="obj\Debug\net6.0\MedicineWeb.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0\MedicineWeb.dll" />
+    <None Include="obj\Debug\net6.0\MedicineWeb.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net6.0\MedicineWeb.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net6.0\MedicineWeb.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net6.0\MedicineWeb.pdb" />
+    <None Include="obj\Debug\net6.0\MedicineWeb.RazorAssemblyInfo.cache" />
+    <None Include="obj\Debug\net6.0\refint\MedicineWeb.dll" />
+    <None Include="obj\Debug\net6.0\ref\MedicineWeb.dll" />
+    <None Include="obj\Debug\net6.0\staticwebassets\msbuild.build.MedicineWeb.props" />
+    <None Include="obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MedicineWeb.props" />
+    <None Include="obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MedicineWeb.props" />
+    <None Include="obj\Debug\net6.0\staticwebassets\msbuild.MedicineWeb.Microsoft.AspNetCore.StaticWebAssets.props" />
+    <None Include="obj\MedicineWeb.csproj.nuget.g.props" />
+    <None Include="obj\MedicineWeb.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="wwwroot\images\about.jpg" />
+    <None Include="wwwroot\images\client.jpg" />
+    <None Include="wwwroot\images\d1.jpg" />
+    <None Include="wwwroot\images\d2.jpg" />
+    <None Include="wwwroot\images\d3.jpg" />
+    <None Include="wwwroot\images\favicon.png" />
+    <None Include="wwwroot\images\herobg.png" />
+    <None Include="wwwroot\images\s1.png" />
+    <None Include="wwwroot\images\s2.png" />
+    <None Include="wwwroot\images\s3.png" />
+    <None Include="wwwroot\images\s4.png" />
+    <None Include="wwwroot\images\t1.jpg" />
+    <None Include="wwwroot\images\t2.jpg" />
+    <None Include="wwwroot\images\t3.jpg" />
+    <None Include="wwwroot\images\t4.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MedicineCore\HospitalCore.csproj" />
   </ItemGroup>
 
 </Project>

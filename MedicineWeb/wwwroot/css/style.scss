@@ -163,7 +163,7 @@ a:focus {
   span {
     font-weight: bold;
     font-size: 24px;
-    color: $white;
+    color: $black;
     text-transform: uppercase;
   }
 }
@@ -177,7 +177,7 @@ a:focus {
     .nav-item {
       .nav-link {
         padding: 5px 20px;
-        color: $white;
+        color: $black;
         text-align: center;
         text-transform: uppercase;
         border-radius: 5px;
@@ -192,7 +192,7 @@ a:focus {
   height: 35px;
   padding: 0;
   border: none;
-  color: $white;
+  color: $black;
 
   &:hover {
     color: $primary1;
@@ -213,7 +213,7 @@ a:focus {
     display: block;
     width: 35px;
     height: 4px;
-    background-color: $white;
+    background-color: $black;
     margin: 7px 0;
     transition: all 0.3s;
     position: relative;
